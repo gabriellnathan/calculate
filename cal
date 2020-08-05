@@ -1,0 +1,14 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main()
+{
+    // Atention with which result do you want (The code divide n1BIGGER / n2SMALLER)
+    float n1 = get_float("n1: ");
+    float n2 = get_float("n2: ");
+    
+    printf("multiply: %.0f\n", n1 * n2);
+    printf("divide: %.2f\n", n1 / n2);
+    printf("plus: %.0f\n", n1 + n2);
+    printf("subtract: %.0f\n", n1 - n2);
+}
